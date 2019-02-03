@@ -1,6 +1,6 @@
 provider "aws" {
-  access_key = "<AWS_ACCESS_KEY>"
-  secret_key = "<AWS_SECRET_KEY>"
+  shared_credentials_file = /Users/jim/.aws/credentials"
+  profile = "personal"
   region     = "us-west-2"
 }
 
