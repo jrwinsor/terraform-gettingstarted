@@ -1,5 +1,5 @@
 provider "aws" {
-  shared_credentials_file = /Users/jim/.aws/credentials"
+  shared_credentials_file = "/Users/jim/.aws/credentials"
   profile = "personal"
   region     = "us-west-2"
 }
